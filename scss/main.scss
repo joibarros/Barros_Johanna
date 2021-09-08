@@ -1,0 +1,185 @@
+html {
+    font-size: 62.5%;
+    /*equivale a 1em*/
+}
+
+/*VARIABLES*/
+$fontFamily: 'Poppins',
+sans-serif;
+$colorPink: #f6c1c9;
+$colorGrey: #606060;
+
+
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap');
+
+@font-face {
+    font-family: 'Darloune';
+    src: url(../fonts/darloune/Darloune.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import"_loading";
+@import"_header";
+@import"_basket";
+@import"_contact";
+@import"_footer";
+
+main {
+
+    background-image: url(../img/minipetit-fondo.png);
+    background-size: auto;
+    background-repeat: repeat;
+    font-family: $fontFamily;
+
+    h1 {
+        margin-top: 120px;
+        font-family: 'Darloune';
+        font-size: 10em;
+        color: $colorGrey;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+
+//INICIO SECCION DE FILTRO
+
+#containerFilter {
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+#filterBtn {
+    background-color: $colorPink;
+    font-size: 1.5em;
+    font-weight: 500;
+    border: 5px solid $colorPink;
+    border-radius: 25px;
+    color: $colorGrey;
+    font-family: $fontFamily;
+    margin: auto;
+    width: 180px;
+    height: 45px;
+    margin-bottom: 35px;
+}
+
+
+#filterBtn:hover{
+    background-color: hsl(40, 70%, 90%);
+    color: $colorGrey;
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
+    border: 3px solid $colorGrey;
+    border-radius: 45px;
+    font-family: $fontFamily;
+
+}
+
+
+p {
+    font-size: 25px;
+}
+
+#filter {
+    display: none;
+
+    .btnFilter,
+    #back {
+        background-color: $colorPink;
+        color: $colorGrey;
+        width: 150px;
+        height: 45px;
+        font-size: 14px;
+        border-style: none;
+        border-radius: 45px;
+        margin: 10px;
+        font-family: $fontFamily;
+    }
+
+    .btnFilter:hover,
+    #back:hover {
+        background-color: hsl(40, 70%, 90%);
+        color: $colorGrey;
+        width: 150px;
+        height: 45px;
+        font-size: 14px;
+        border: 3px solid $colorGrey;
+        border-radius: 45px;
+        font-family: $fontFamily;
+    }
+
+}
+
+//INICIO DE ESTILOS DE CARDS
+#productsUI{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+
+.card {
+    display: flex;
+    align-content: center;
+    max-width: 250px;
+    margin: 40px;
+    font-family: 'Poppins', sans-serif;
+    color: #606060;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+ 
+    .imgCards {
+        display: flex;
+        align-content: center;
+        width: 250px;
+        border-radius: 35px;
+       
+    }
+
+    .btnBuy {
+        justify-content: center;
+        background-color: $colorGrey;
+        border-radius: 45px;
+        color: #ffebee;
+        border: 1px solid $colorGrey;
+        font-weight: 500;
+        width: 210px;
+        height: 50px;
+        text-align: center;
+        font-size: 1.6em;
+        outline: none;
+        cursor: hand;
+        margin-left: 20px;
+    }
+
+    .btnBuy:hover {
+        background-color: hsl(40, 70%, 90%);
+        border-radius: 45px;
+        color: $colorGrey;
+        width: 180px;
+        height: 50px;
+        text-align: center;
+        font-size: 1.6em;
+        border: 3px solid $colorGrey;
+    }
+
+    .cardTitle {
+        font-size: 2em;
+        font-weight: 500;
+        padding: 0 20px;;
+    }
+}
+
+.cardSubtitle {
+    padding-top: 20px;
+    font-size: 1.8em;
+    font-weight: 600;
+}

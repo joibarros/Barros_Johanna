@@ -1,0 +1,139 @@
+.btn-delete{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.btn-add{
+    font-weight: 600;
+    color: black;
+    font-size: 1.8em;
+}
+
+.btn-sub{
+    font-weight: 600;
+    color: black;
+    font-size: 1.8em;
+
+}
+
+.backHome {
+    background-color:hsl(40, 70%, 90%);
+    color: $colorGrey;
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
+    border-style: none;
+    border-radius: 45px;
+    margin: 10px;
+    font-family: $fontFamily;
+}
+
+.backHome:hover {
+    background-color:hsl(40, 70%, 90%);
+    color: $colorGrey;
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
+    border: 3px solid hsl(40, 70%, 70%);
+    border-radius: 45px;
+    margin: 10px;
+    font-family: $fontFamily;
+}
+
+.titleBasket {
+    color: $colorGrey;
+    font-family: $fontFamily;
+    text-decoration: underline $colorPink;
+   font-size: 3em;
+    text-align: center;
+}
+
+#mainBasket {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding: 50px;
+}
+
+
+#basket {
+
+    p{
+        color: $colorGrey;
+        font-size: 1.6em;
+    }
+
+    .divBasket{
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+        justify-content: space-between;
+        align-items: center;
+        font-family: $fontFamily;
+        border: 3px solid $colorGrey;
+        .basketImg {
+            width: 150px;
+            border-radius: 20%;
+        }
+        .buttonsBasket{
+            display: flex;
+            column-gap: 10px;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
+
+.line {
+
+    width: 100%;
+    height: 05px;
+    border-radius: 05px;
+    background-color: $colorPink;
+    padding: 10px;
+    
+}  
+
+#subtotal {
+    font-family: $fontFamily;
+    font-size: 20px;
+    align-items: center;
+    padding: 20px 20px;
+    div{
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        justify-content: space-between;
+    }
+
+}
+
+.purchase{
+    background-color:$colorPink;
+    color: $colorGrey;
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
+    border-style: none;
+    border-radius: 45px;
+    margin: 10px;
+    font-family: $fontFamily;
+    align-self: flex-start;
+}
+
+.purchase:hover {
+    background-color:hsl(40, 70%, 90%);
+    color: $colorGrey;
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
+    border: 3px solid $colorPink;
+    border-radius: 45px;
+    font-family: $fontFamily;
+}
+
+.modalContent{
+    font-size: 1.2em;
+    font-family: $fontFamily;
+}

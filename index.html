@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mini Petit</title>
+
+	<!-- FONT -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap"
+		rel="stylesheet">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link href="./css/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/loading.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+	<header>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="index.html"><img class="logo" src="img/minipetit-logo-removebg-preview.png"
+					alt="Logo Mini Petit"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+				aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarColor01">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="../index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">MiniTips</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">MiniCocina</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="html/contact.html">Contacto</a>
+					</li>
+					<li class="nav-item my-2 my-sm-0">
+						<a href="html/cart.html"><img id="quantity" src="img/addToCart.svg" width="45px"
+								alt="Carrito de Compras"></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+
+		<h1>Mini Petit</h1>
+
+
+		<div class="loading">Loading&#8230;</div>
+
+		<div id="containerFilter">
+			<button id="filterBtn">Filtrar por producto</button>
+			<div id="filter"></div>
+			
+		</div>
+		<div id="productsUI"></div>
+	</main>
+
+		
+	<footer class="bd-footer pt-5 bg-dark">
+		<div class="container ">
+		  <div class="row">
+			<div class="col-lg-3 mb-3">
+			  <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" href="index.html"
+				aria-label="Mini Petit">
+				<img class="logo" src="img/minipetit-logo-removebg-preview.png" width="100" class="d-block me-2"
+				  alt="Logo de Mini Petit">
+			  </a>
+	
+			  <ul class="list-unstyled text-muted ">
+				<li class="mb-2">Sitio diseñado y creado por Johanna Barros</li>
+				<li>&copy;2021 Mini Petit Inc. All rights reserved.</li>
+				<li class="mb-2">All other logos and trademarks are the property of their respective owners.</li>
+	
+			  </ul>
+			</div>
+			<div class="col-6 col-lg-2 offset-lg-1 mb-3 site-map">
+			  <h5>Links</h5>
+			  <ul class="list-unstyled">
+				<li class="mb-2"><a href="index.html">Home</a></li>
+				<li class="mb-2"><a href="#">Funciones</a></li>
+				<li class="mb-2"><a href="#">Blog</a></li>
+				<li class="mb-2"><a href="#">Precios</a></li>
+				<li class="mb-2"><a href="html/contact.html">Contacto</a></li>
+			  </ul>
+			</div>
+			<div class="col-6 col-lg-2 mb-3 site-map">
+			  <h5>Información</h5>
+			  <ul class="list-unstyled">
+				<li class="mb-2"><a href="#">FAQs</a></li>
+				<li class="mb-2"><a href="#">Sobre nosotros</a></li>
+				<li class="mb-2"><a href="#">Planes de precios</a></li>
+				<li class="mb-2"><a href="pages/contacto.html">Contáctenos</a></li>
+			  </ul>
+			</div>
+			<iframe class="map"
+			  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.207883966398!2d-58.4593242850291!3d-34.548291562073935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb426754d0f2b%3A0x6df31e27522f69d9!2sTorres%20de%20Monta%C3%B1eses!5e0!3m2!1ses-419!2sar!4v1622469872837!5m2!1ses-419!2sar"
+			  width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<div class="col ml-5 footer__social">
+			  <ul>
+				<li><a class="footer__social--facebook" href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+				</li>
+				<li><a class="footer__social--instagram" href="https://instagram.com/minipetit.ba"><i
+					  class="fab fa-instagram"></i></a>
+				</li>
+				<li><a class="footer__social--twitter" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+				</li>
+			  </ul>
+			</div>
+	
+		  </div>
+		</div>
+	  </footer>
+
+	<!-- SCRIPTS -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+	</script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<script src="https://kit.fontawesome.com/cd15054714.js" crossorigin="anonymous"></script>
+	<script src="./js/js/bootstrap.bundle.js"></script>
+	<script src="./js/class.js"></script>
+	<script src="./js/filter.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+
+</html>

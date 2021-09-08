@@ -1,0 +1,57 @@
+/* INICIO DEL FOOTER */
+.footer {
+    background-color: #eeeeee;
+
+}
+
+.logo-footer {
+    width: 100px;
+
+}
+
+footer h5 {
+    font-size: 1.8em;
+    color    : #474747;
+}
+
+.site-map a {
+    text-decoration: none;
+    font-size      : 1em;
+    color          : #474747;
+}
+
+.footer__social {
+    font-size: 3em;
+}
+
+.footer__social li {
+    list-style: none;
+}
+
+.footer__social a {
+    text-decoration: none;
+    color          : gray;
+    cursor         : pointer;
+}
+
+.footer__copy {
+    color     : gray;
+    font-size : 1.2em;
+    text-align: center;
+}
+
+.footer__social--facebook:hover {
+    color: #1877f2;
+}
+
+.footer__social--instagram:hover {
+    color: #E03098;
+}
+
+.footer__social--twitter:hover {
+    color: #1DA1F2;
+}
+
+.map {
+    width: 200px;
+}

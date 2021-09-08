@@ -1,0 +1,45 @@
+header {
+	background-color: $colorGrey;
+	font-family: 'Poppins'sans-serif;
+	font-weight: 200;
+	font-size: 1.8em;
+
+ }
+	.logo{
+		width: 120px;
+		margin-right: 35px;
+	}
+	img {
+		&:hover {
+			cursor: pointer;
+		}
+	}
+
+	#quantity{
+		width: 45px;
+	}
+
+
+
+nav {
+    .nav-item {
+    padding: 10px;
+
+	font-family: $fontFamily;
+	width: 100%;}
+	img:hover{
+	box-shadow: 2px 2px 9px #fff;
+	}
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color          : white;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    text-shadow    : 2px 2px 9px #fff;
+    color          : white;
+}
