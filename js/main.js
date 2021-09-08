@@ -17,8 +17,8 @@ const URLGET = "data/products.json";
         $("#productsUI"). append (`<div class="card">
                                 <h2 class="cardTitle">${product.name}</h2> 
                                 <img src="${product.img}" class="imgCards">
-                                <h4 class="cardSubtitle">$ ${product.price}</h4>
-                                <button id="${product.code}" class="btnBuy">Add to cart</button>
+                                <h4 class="cardSubtitle">Precio: $${product.price}</h4>
+                                <button id="${product.code}" class="btnBuy">Agregar al carrito</button>
                                 <div>`)} 
 
                                 const buttons = $(".btnBuy");
@@ -26,7 +26,7 @@ const URLGET = "data/products.json";
                                     buy.onclick = buyHandler;
                             }
                             $(".btnBuy").click (function (){
-                                swal("Product Added to cart!", "" , "success");
+                                swal("Producto añadido correctamente!", "" , "success");
                             })                          
     })  
 });

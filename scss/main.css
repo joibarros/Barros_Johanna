@@ -124,6 +124,7 @@ nav img:hover {
 
 nav ul li a {
   text-decoration: none;
+  font-weight: 300;
   color: white;
 }
 
@@ -131,6 +132,7 @@ nav ul li a:hover {
   text-decoration: none;
   text-shadow: 2px 2px 9px #fff;
   color: white;
+  font-weight: 400;
 }
 
 .btn-delete {
